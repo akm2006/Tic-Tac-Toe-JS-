@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #9FB798;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    margin: 1rem 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+
+.msg {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30vh 0 50vh 0;
+
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: clamp(22rem, 1vw, 90rem);
+    height: clamp(22rem, 1vh, 80rem);
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 1rem;
+    margin-top: 5vh;
+    /* background-color:#DDDBF1;  */
+    /* border-radius: 5%; */
+}
+
+.box {
+    background-color: #011638;
+    border: none;
+    border-radius: 5%;
+    font-size: larger;
+    width: clamp(6.5rem, 1vw, 29rem);
+    height: clamp(6.5rem, 1vh, 29rem);
+    font-size: 3rem;
+    color: #ECE5F0;
+
+
+}
+
+.reset,
+.newGame {
+    margin: auto;
+    font-size: 1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    padding: 1rem;
+    cursor: pointer;
+    color: rgb(184, 184, 184);
+}

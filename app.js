@@ -43,7 +43,7 @@ boxes.forEach((box) => {
       box.style.color = "#F64740";
     }
     box.disabled = true;
-    checkWinner();
+    setTimeout(checkWinner,2000);
   });
 });
 
